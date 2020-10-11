@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:black;
+    height: 100%;
+    text-align: center;
+}
+
+/* Header */
+header{
+    background: gray;
+    padding: 0.5rem;
+    min-height: 0.5rem;
+    letter-spacing: 0.5em;
+}
+
+.hero img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.hero_text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.hero p{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/* Logo */
+
+.logo{
+    float: left;
+    vertical-align: auto;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
+/* Navigation */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: right;
+}
+
+.nav_links li{
+    list-style: none;
+}
+
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+/* Calendar and Giving */
+.column{
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.column h2{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.give_btn{
+    margin: 5rem;
+}
+
+/* Footer */
+footer{
+    background: gray;
+    width: 100%;
+    flex: -1;
+    flex-shrink: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-right: 18px;
+
+}
